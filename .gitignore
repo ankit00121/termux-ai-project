@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables (CRITICAL)
+.env
+.env.local
+.env.*.local
+
+# FastAPI / Uvicorn
+*.log
+uvicorn.log
+
+# SQLite databases (if you add caching later)
+*.db
+*.db-shm
+*.db-wal
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
